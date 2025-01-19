@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-        <style >
 
-        </style>
         <meta charset="utf-8">
-        <title>My home page</title>
-        this is something
-        <hr  width="100%">
+        <link rel="stylesheet" href ="style.css">
+        <title>Ari's webdev</title>
+        <header>
+         Webdev class
+        </header>
+        
+        <!-- <hr  width="100%"> -->
+        <nav>
+        <a href="/">home</a>
+        <a href ="second.html">second</a>
+        <a href="contact.html">contact</a>
+         </nav>
+        headers test
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h6>h6</h6>
+
+
         <script>
             // alert('hello javascript world')
             document.write("this page was last edited" + document.lastModified)
         </script>
         <br>
+        <form>
+            <input type="email" name="user-email" placeholder="you@you.com">
+            <button type = "submit" onclick= >email me</button>
+            <input type="date" name ="day in email" value = "2025-08-23"> 
+            <button onclick="sendMail(); return false">Send</button>
+        </form>
     </head>
-    <body>
-        Hello World!
-    </body>
     <script>script.js</script>
 </html>

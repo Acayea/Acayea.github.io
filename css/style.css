@@ -1,0 +1,12 @@
+button {
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px grey;
+}
+ol {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
